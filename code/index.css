@@ -1,4 +1,44 @@
+@font-face {
+    font-family: 'Helvetica', sans-serif;
+    src: url(./assets/Helvetica-Font);
+}
+*{
+    font-family: 'Helvetica', sans-serif;
+}
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+nav img{
+    width: 150px;
+    height: 100px;
+}
+.navBlock{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    width: 125px;
+    margin: 20px 10px;
+    padding: 10px 5px;
+    font-size: 1rem;
+    border-radius: 30px;
+    color: white;
+}
+.navBlock:nth-of-type(odd){
+    background-color: #0097B2;
+}
+.navBlock:nth-of-type(even){
+    background-color: #F7652D;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 @media only screen and (max-width: 375px){
     
