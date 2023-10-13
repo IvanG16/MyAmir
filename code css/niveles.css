@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #E8ECEF;
+
+}
+.textouno{
+    position: relative;
+  padding-bottom: 550px;
+  margin-left: -6%;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  font-size: xx-small;
+}
+.textodos{
+    position:absolute;
+    text-align: center;
+    padding-bottom: 450px;
+}
+.btn{
+    position: relative;
+    display: inline-flex;
+    padding-bottom: 450px;
+    height: 60px;
+    width: 100px;
+    overflow: hidden;
+    margin:40px 20px;
+}
+.btn .inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    background:-webkit-linear-gradient() ;
+    z-index: -1;
+}
+.btn .button{
+   height:100% ;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+.card div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 15px;
+
+}
+.card .front {
+    background: #F65E30;
+    transform: perspective(500px) rotateY(0deg);
+
+}
+.card .back {
+    background: rgb(6, 164, 212);
+    transform: perspective(500px) rotateY(180deg);
+}
+.card:hover .front {
+
+    transform: perspective(500px) rotateY(180deg);
+
+}
+.card:hover .back {
+
+    transform: perspective(500px) rotateY(360deg);
+}
+.card div h1 {
+    font-size: 30px;
+    color: #f1f1f1;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardtwo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+
+}
+.cardtwo div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 15px;
+}
+.cardtwo .front {
+    background: rgb(6, 164, 212);
+    transform: perspective(500px) rotateY(0deg);
+}
+.cardtwo .back {
+    background: #F65E30;
+    transform: perspective(500px) rotateY(180deg);
+}
+.cardtwo:hover .front {
+
+    transform: perspective(500px) rotateY(180deg);
+}
+.cardtwo:hover .back {
+
+    transform: perspective(500px) rotateY(360deg);
+}
+.cardtwo div h1 {
+    font-size: 30px;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardtres{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+
+}
+.cardtres div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 15px;
+}
+.cardtres .front {
+    background: #F65E30;
+    transform: perspective(500px) rotateY(0deg);
+}
+.cardtres .back {
+    background: rgb(6, 164, 212);
+    transform: perspective(500px) rotateY(180deg);
+}
+.cardtres:hover .front {
+
+    transform: perspective(500px) rotateY(180deg);
+}
+.cardtres:hover .back {
+    transform: perspective(500px) rotateY(360deg);
+}
+.cardtres div h1 {
+    font-size: 30px;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
