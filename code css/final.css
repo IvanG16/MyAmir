@@ -1,20 +1,20 @@
-#inicio{
-    margin-left: 88%;
-    background-color: rgb(236, 143, 21);
-    }
-h1{
-    margin-left: 40%;
+#inicio {
+  margin-left: 88%;
+  background-color: rgb(236, 143, 21);
 }
-#hr{
-    width: 500px;
-    margin-right: 66%;
-    margin-left: 6%;
-    margin-top: 40%;
+h1 {
+  margin-left: 40%;
 }
-#hr1{
-    margin-left: 66%;
-    margin-right: 6%
+#hr {
+  width: 500px;
+  margin-right: 66%;
+  margin-left: 6%;
+  margin-top: 40%;
 }
-#nombre{
-    margin-left: 45%;
+#hr1 {
+  margin-left: 66%;
+  margin-right: 6%;
+}
+#nombre {
+  margin-left: 45%;
 }
